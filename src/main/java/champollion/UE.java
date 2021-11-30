@@ -5,6 +5,8 @@ public class UE {
     private int heuresCM;
     private int heuresTD;
     private int heuresTP;
+    private Enseignant enseignant;
+    private Intervention intervention;
 
     public UE(String intitule) {
         myIntitule = intitule;
@@ -24,5 +26,25 @@ public class UE {
     
     public int getHeuresTP() {
         return heuresTP;
+    }
+
+    public Enseignant getEnseignant() {
+        return enseignant;
+    }
+
+    public Intervention getIntervention() {
+        return intervention;
+    }
+    
+    public void setHeuresCM(int heuresCM) {
+        this.heuresCM = heuresCM;
+    }
+
+    public void setHeuresTD(int heuresTD) {
+        this.heuresTD = heuresTD;
+    }
+
+    public void setHeuresTP(int heuresTP) {
+        this.heuresTP = heuresTP;
     }
 }
